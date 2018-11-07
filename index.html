@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML 5</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="aaaaaaa" />
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+<body>
+<style>
+    h1{color: red;font-family: Lobster, Sans-serif;}
+    h2 {color: blue;font-size: 24px;font-family: fantasy;}
+    body{color: mediumpurple;font-family: Monspace;}
+    .smaller-image {width: 250px;}
+    .thin-green-border{border-color: green; border-width: 5px; border-style: solid;border-radius: 10%;}
+    .gray-background{background-color:grey;padding:10px 20px 30px 40px;margin-bottom:1px;margin-right:50px}/*padding内边距margin外边距border边框 */
+    .yellow-color{color: yellow;}
+    #form{background-color: green;} /*.类选择器 #id选择器*/
+    #brown-text{color: brown;} /*!important delete; in front of !*/
+    .pink-text{color:pink;}
+    .blue-text{color:blue;}
+</style>
+<a href="https://www.w3schools.com/"><img class="smaller-image thin-green-border" src="html5logo.png" alt="MyLogo"/></a>
+<h1 style="color: #000000;" id= "brown-text" class="pink-text blue-text" >HTML 5?</h1>   <!--style first one--><!-- BLACK #000000  WHITE #FFFFFF RED #FF0000(#F00)  GREEN #00FF00 BLUE #0000FF
+DOGER BLUE #2998E4 ORANGE #FFA500  GREY #808080  DARK GREY #111111    -->
+<!-- white rgb(255,255,255); red rgb(255,0,0); green rgb(0,255,0);blue rgb(0,0,255); orchid rgb(218,112,214) sienna rgb(160,82,45) -->
+
+<h2 id="h2" >Contents:</h2>
+<ul>
+    <li>
+        <a href="whatishtml5.html">What is HTML 5?</a>
+    </li>
+    <li>
+        <a href="howdidhtmlstart.html">How did HTML5 start?</a>
+    </li>
+</ul>
+<ol>
+    <li>Garfield</li>
+    <li>Sylvester</li>
+</ol>
+
+<form action="http://foo.com" method="get" id="form">
+    <div>
+        <input type="text" placeholder="this is placeholder text"name="txt"required >
+    </div>
+    <div class="yellow-color">
+        <label><input type="radio" name="indoor-outdoor" checked>indoor</label> <label><input type="radio" name="indoor-outdoor">indoor</label>
+        <label><input type="checkbox" name="personality">love</label> <label><input type="checkbox" name="personality" checked>lazy</label>
+    </div>
+    <div class="gray-background">
+        <label for="say">What greeting do you want to say?</label>
+        <input name="say" id="say" placeholder="this is placeholder text">
+    </div>
+    <div class="gray-background">
+        <label for="to">Who do you want to say it to?</label>
+        <input name="to" id="to"placeholder="this is placeholder text">
+    </div>
+    <div>
+        <button type="submit">Send my greetings</button>
+    </div>
+</form>
+For more info about data sending<a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data">website</a>
+<p>
+    Here is a <a href="#">link to W3Cschool.cn</a>for you to follow.
+</p>
+
+</body>
+
+</html>
